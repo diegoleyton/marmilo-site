@@ -1,0 +1,135 @@
+:root {
+  --bg-top: #fff3d6;
+  --bg-bottom: #f8fafc;
+  --text: #1f2937;
+  --muted: #667085;
+  --accent: #ef8f26;
+  --accent-strong: #d97706;
+  --panel: rgba(255, 255, 255, 0.74);
+  --border: rgba(15, 23, 42, 0.08);
+  --shadow: 0 28px 60px rgba(15, 23, 42, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Avenir Next", "Nunito", "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(255, 214, 102, 0.55), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(147, 197, 253, 0.28), transparent 30%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+  overflow-x: hidden;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent-strong);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(36px, 6vw, 68px);
+  line-height: 0.95;
+  max-width: 10ch;
+}
+
+.intro {
+  margin: 18px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+  max-width: 54ch;
+  font-size: 18px;
+}
+
+.secondary {
+  margin: 14px 0 0;
+  color: var(--text);
+  line-height: 1.6;
+  max-width: 48ch;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+}
+
+.hero {
+  width: min(1180px, 100%);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-copy {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 32px;
+  padding: clamp(28px, 5vw, 56px);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.actions {
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 54px;
+  border-radius: 16px;
+  padding: 0 22px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(180deg, var(--accent), var(--accent-strong));
+  box-shadow: 0 10px 20px rgba(239, 143, 38, 0.24);
+}
+
+.button:hover {
+  filter: brightness(1.03);
+}
+
+.hero-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-art img {
+  width: min(100%, 520px);
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 24px 48px rgba(15, 23, 42, 0.18));
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    order: 2;
+  }
+
+  .hero-art {
+    order: 1;
+  }
+
+  h1 {
+    max-width: none;
+  }
+}
