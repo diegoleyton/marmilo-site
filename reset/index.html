@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marmilo Password Reset</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="card">
+        <p class="eyebrow">Marmilo</p>
+        <h1>Set a new password</h1>
+        <p class="intro" id="introText">
+          We are checking your reset link.
+        </p>
+
+        <form id="resetForm" class="form" hidden>
+          <label class="field">
+            <span>New password</span>
+            <input id="passwordInput" type="password" autocomplete="new-password" minlength="6" required />
+          </label>
+
+          <label class="field">
+            <span>Confirm password</span>
+            <input id="confirmPasswordInput" type="password" autocomplete="new-password" minlength="6" required />
+          </label>
+
+          <button id="submitButton" type="submit">Update password</button>
+        </form>
+
+        <div id="message" class="message" aria-live="polite"></div>
+
+        <div id="helpBox" class="help" hidden>
+          <p>The reset link is invalid or expired.</p>
+          <p>Go back to Marmilo and request a new password reset email.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
