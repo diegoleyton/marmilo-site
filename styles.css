@@ -3000,6 +3000,14 @@ li {
   line-height: 1.65;
 }
 
+.parent-assistance-copy .parent-assistance-status {
+  padding-top: 14px;
+  border-top: 1px solid rgba(23, 53, 74, 0.12);
+  color: var(--text);
+  font-size: clamp(14px, 1.25vw, 16px);
+  line-height: 1.5;
+}
+
 .ecosystem-panel {
   padding: clamp(30px, 5vw, 52px) 0 0;
   border: 0;

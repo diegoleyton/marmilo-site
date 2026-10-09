@@ -101,12 +101,13 @@ const copy = {
       "Even the music is made with care: composed and performed especially for MarMilo, using carefully selected acoustic instruments.",
     whyClosing:
       "Technology should support the practice of everyday life, then step out of the way.",
-    assistanceEyebrow: "Coming soon · Optional support for parents",
-    assistanceTitle: "A starting point when you're not sure where to start",
-    assistanceBody1:
-      "Parents can always create routines manually. Optional AI assistance for parents is not yet available to the public and will begin rolling out soon. It is designed to turn an everyday challenge into a practical routine suggestion—without requiring families to master behavioral frameworks.",
+    assistanceEyebrow: "Coming soon · For parents",
+    assistanceTitle: "MarMilo Ally",
+    assistanceBody1: "A little support when parenting feels hard.",
     assistanceBody2:
-      "Parents will describe what is happening, review the proposal, and adapt it to their child and household. This assistance will be only for parents: it will never interact directly with children, and nothing will reach the child experience until a parent reviews and approves it.",
+      "Explore everyday challenges, discover new perspectives, and find practical ways forward, without judgment.",
+    assistanceStatus:
+      "MarMilo Ally is optional, exclusively for parents, and not yet available in the current test builds. It will begin rolling out soon and will never interact directly with children.",
     showcase1:
       "Technology should strengthen family life, not compete with it.",
     why6: "",
@@ -223,12 +224,9 @@ const copy = {
     faq5q: "How can I join the mobile tests?",
     faq5a:
       "The iOS links open the current TestFlight tests. Android testing requires an approved Google account; if your email is not yet registered, you can request access through the form on this site. Approval may take some time.",
-    faq6q: "How will MarMilo help when I don't know where to begin?",
-    faq6a:
-      "An optional parent-only feature is in development to help turn everyday challenges into practical routine suggestions. It is not yet available to the public and will begin rolling out soon. Parents will review, adjust, accept, or reject every suggestion.",
     faq7q: "Does MarMilo use AI?",
     faq7a:
-      "The test builds currently available to families do not yet include AI assistance. An optional parent-only feature will begin rolling out soon to help organize a challenge into a practical starting point. It will never interact directly with children, and families will always be able to create routines without it.",
+      "MarMilo Ally is optional AI-assisted support for parents, designed to help explore everyday challenges and find practical ways forward without judgment. It is coming soon and is not yet included in the current test builds. Ally will never interact directly with children; parents will remain in control of every suggestion, and families will always be able to create routines without it.",
     faq8q: "Can more than one parent or caregiver have an account?",
     faq8a:
       "Not yet. During current testing, one parent account manages each family. We are working on support for additional parent and caregiver accounts so more than one adult can participate with their own access."
@@ -335,12 +333,13 @@ const copy = {
       "Incluso la música está hecha con cuidado: compuesta e interpretada especialmente para MarMilo con instrumentos acústicos cuidadosamente seleccionados.",
     whyClosing:
       "La tecnología debería apoyar la práctica de la vida cotidiana y luego hacerse a un lado.",
-    assistanceEyebrow: "Próximamente · Apoyo opcional para padres",
-    assistanceTitle: "Un punto de partida cuando no sabes por dónde comenzar",
-    assistanceBody1:
-      "Los padres siempre pueden crear rutinas manualmente. La asistencia opcional con IA para padres aún no está disponible al público y comenzará a habilitarse próximamente. Está diseñada para transformar un desafío cotidiano en una propuesta práctica de rutina, sin exigir que las familias dominen marcos conductuales.",
+    assistanceEyebrow: "Próximamente · Para padres",
+    assistanceTitle: "MarMilo Ally",
+    assistanceBody1: "Un apoyo para los desafíos de cada día.",
     assistanceBody2:
-      "Los padres podrán describir lo que está ocurriendo, revisar la propuesta y adaptarla a su hijo y a su hogar. Esta asistencia será solo para padres: nunca interactuará directamente con niños y nada llegará a la experiencia infantil hasta que un adulto lo revise y apruebe.",
+      "Conversemos sobre lo que está pasando, exploremos otras perspectivas y encontremos juntos posibles caminos, sin juicios.",
+    assistanceStatus:
+      "MarMilo Ally es opcional, exclusivo para padres y todavía no está disponible en las versiones de prueba actuales. Comenzará a habilitarse próximamente y nunca interactuará directamente con niños.",
     showcase1:
       "La tecnología debería fortalecer la vida familiar, no competir con ella.",
     why6: "",
@@ -457,12 +456,9 @@ const copy = {
     faq5q: "¿Cómo puedo participar en las pruebas móviles?",
     faq5a:
       "Los links de iOS abren las pruebas actuales en TestFlight. Las pruebas en Android requieren una cuenta de Google aprobada; si tu email todavía no está registrado, puedes solicitar acceso mediante el formulario de este sitio. La aprobación puede tomar un poco de tiempo.",
-    faq6q: "¿Cómo me ayudará MarMilo cuando no sé por dónde comenzar?",
-    faq6a:
-      "Estamos desarrollando una función opcional y exclusiva para padres que ayudará a transformar desafíos cotidianos en propuestas prácticas de rutina. Aún no está disponible al público y comenzará a habilitarse próximamente. Los padres revisarán, ajustarán, aceptarán o rechazarán cada sugerencia.",
     faq7q: "¿MarMilo usa IA?",
     faq7a:
-      "Las versiones de prueba disponibles actualmente para las familias todavía no incluyen asistencia con IA. Próximamente comenzaremos a habilitar una función opcional y exclusiva para padres que ayudará a convertir un desafío en un punto de partida práctico. Nunca interactuará directamente con niños y las familias siempre podrán crear rutinas sin utilizarla.",
+      "MarMilo Ally es un apoyo opcional para padres asistido por IA, diseñado para explorar desafíos cotidianos y encontrar posibles caminos sin juicios. Estará disponible próximamente y todavía no está incluido en las versiones de prueba actuales. Ally nunca interactuará directamente con niños; los padres mantendrán el control de cada propuesta y las familias siempre podrán crear rutinas sin usar Ally.",
     faq8q: "¿Puede más de un padre, madre o cuidador tener una cuenta?",
     faq8a:
       "Todavía no. Durante las pruebas actuales, una cuenta parental administra cada familia. Estamos trabajando para admitir cuentas adicionales de padres y cuidadores, de modo que más de un adulto pueda participar con su propio acceso."
